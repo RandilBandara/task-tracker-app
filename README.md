@@ -1,30 +1,32 @@
 Task Tracker App (Full-stack AWS)
-A full-stack task tracking application with Flask backend, React frontend, deployed on AWS using Terraform and GitHub Actions for CI/CD.
+A full-stack task tracking app with Flask backend, React frontend, deployed on AWS using Terraform and GitHub Actions CI/CD.
 
 Features
-Manage tasks (create, update, delete)
+Create, update, delete tasks
 
 Flask API on AWS Lambda or EC2
 
 Data stored in DynamoDB or RDS PostgreSQL
 
-Infrastructure with Terraform
+Infrastructure managed with Terraform
 
-CI/CD with GitHub Actions
+CI/CD pipelines via GitHub Actions
 
-React or simple HTML/JS frontend
+Frontend built with React or simple HTML/JS
 
-Project Completion Statement
+Project Summary
+Flask backend deployed as AWS Lambda functions and/or EC2
 
-Backend built with Flask, deployed as AWS Lambda functions and/or on EC2 instances
+Database options: DynamoDB (serverless) and RDS PostgreSQL (managed SQL)
 
-Database configured using both DynamoDB (serverless) and RDS PostgreSQL (managed SQL)
+API exposed via AWS API Gateway or Flask on EC2
 
-API exposed via AWS API Gateway for serverless backend and Flask running on EC2
+Infrastructure provisioned using Terraform (VPC, EC2, IAM, etc.)
 
-Infrastructure fully defined and provisioned using Terraform, including VPC, EC2, IAM roles, and more
+Automated deployment through GitHub Actions
 
-CI/CD pipelines set up with GitHub Actions to automatically deploy both backend and frontend
+Frontend developed with React or simple HTML/JS
 
-Frontend developed using React and/or simple HTML/JavaScript
+
+
 
